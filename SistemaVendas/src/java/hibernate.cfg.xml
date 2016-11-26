@@ -10,5 +10,8 @@
     <property name="hibernate.show_sql">true</property>
     <property name="hibernate.format_sql">false</property>
     <property name="hbm2ddl.auto">update</property>
+    <mapping class="cliente.Cliente"/>
+    <mapping class="produto.Produto"/>
+    <mapping class="venda.Venda"/>
   </session-factory>
 </hibernate-configuration>
